@@ -142,7 +142,7 @@ Question 1: Higher Order Linear Equation Existence
  Consider the initial value problem
 
 $$
-\begin{cases}\displaystyle \frac{d^3 y}{d t^3}+ \frac1{t-4}\frac{d^2 y}{d t^2}+\frac yt=0  \\ \phantom{x} \\ y(1)=1, \; y'(1)=2, \; y''(1) = -14 \end{cases}
+\begin{cases}\displaystyle \frac{d^3 y}{d t^3}+ \frac1{t-4}\frac{d^2 y}{d t^2}+\frac yt=0 \\ y(1)=1, \; y'(1)=2, \; y''(1) = -14 \end{cases}
 $$
 
  What is the largest interval on which we are guaranteed to have a unique solution?
@@ -290,29 +290,29 @@ $$
 - [ ] (a)
 
 $$
-\left\{ \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} 2\\2\\2\\3 \end{bmatrix}: w \text{ arbitrary } \right\}
+\left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} 2\\2\\2\\3 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
 $$
 
 - [x] (b)
 
 $$
-\left\{ \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} -1\\-1\\-1\\1 \end{bmatrix}: w \text{ arbitrary } \right\}
+\left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} -1\\-1\\-1\\1 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
 $$
 
 - [ ] (c)
 
 $$
-\left\{ \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} 1\\1\\1\\1 \end{bmatrix}: w \text{ arbitrary } \right\}
+\left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} 1\\1\\1\\1 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
 $$
 
 - [ ] (d)
 
 $$
-\left\{ \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = x\begin{bmatrix} 1\\0\\0\\0 \end{bmatrix}+ y\begin{bmatrix} 0\\1\\0\\0 \end{bmatrix}+ z\begin{bmatrix} 0\\0\\1\\0 \end{bmatrix}+ w\begin{bmatrix} 0\\0\\0\\1 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\}
+\left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = x\begin{bmatrix} 1\\0\\0\\0 \end{bmatrix}+ y\begin{bmatrix} 0\\1\\0\\0 \end{bmatrix}+ z\begin{bmatrix} 0\\0\\1\\0 \end{bmatrix}+ w\begin{bmatrix} 0\\0\\0\\1 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
 $$
 
 - [ ] (e)
 
 $$
-\left\{ \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = x\begin{bmatrix} 0\\1\\1\\1 \end{bmatrix}+ y\begin{bmatrix} 1\\0\\1\\1 \end{bmatrix}+ z\begin{bmatrix} 1\\1\\0\\1 \end{bmatrix}+ w\begin{bmatrix} 2\\2\\2\\3 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\}
+\left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = x\begin{bmatrix} 0\\1\\1\\1 \end{bmatrix}+ y\begin{bmatrix} 1\\0\\1\\1 \end{bmatrix}+ z\begin{bmatrix} 1\\1\\0\\1 \end{bmatrix}+ w\begin{bmatrix} 2\\2\\2\\3 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
 $$
