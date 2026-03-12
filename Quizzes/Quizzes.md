@@ -123,9 +123,9 @@ Question 1: Apply Euler's method
 
  Consider the initial value problem
 
-$$
+```math
 \begin{cases}\displaystyle \frac{d y}{d t} = e^{ty} \\ y(0)=1 \end{cases}
-$$
+```
 
  If you apply Euler's method with step size $\Delta t = 0.1,$ what is $y_1?$
 
@@ -141,9 +141,9 @@ Question 1: Higher Order Linear Equation Existence
 
  Consider the initial value problem
 
-$$
+```math
 \begin{cases}\displaystyle \frac{d^3 y}{d t^3}+ \frac1{t-4}\frac{d^2 y}{d t^2}+\frac yt=0 \\ y(1)=1, \; y'(1)=2, \; y''(1) = -14 \end{cases}
-$$
+```
 
  What is the largest interval on which we are guaranteed to have a unique solution?
 
@@ -267,9 +267,9 @@ Question 1: Determinants
 
  What is the determinant of the matrix
 
-$$
+```math
 \begin{bmatrix} 0 & 1 & 1 & 1 \\ 1& 0 & 1& 1\\ 1& 1& 0 & 1\\ 1& 1&1&0 \end{bmatrix}?
-$$
+```
 
 - [ ] (a) It is impossible to determine from these data
 - [ ] (b) $-1$
