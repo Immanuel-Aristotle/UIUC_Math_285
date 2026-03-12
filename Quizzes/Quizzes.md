@@ -283,36 +283,36 @@ Question 1: Row Operations
 
  What is the set of solutions to the equation
 
-$$
+```math
 \begin{bmatrix} 0 & 1 & 1 & 2 \\ 1& 0 & 1& 2\\ 1& 1& 0 & 2\\ 1& 1&1&3 \end{bmatrix}\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}?
-$$
+```
 
 - [ ] (a)
 
-$$
+```math
 \left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} 2 \\ 2 \\ 2 \\ 3 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
-$$
+```
 
 - [x] (b)
 
-$$
+```math
 \left\lbrace \begin{bmatrix} x\\y\\z\\w \end{bmatrix} = w\begin{bmatrix} -1\\-1\\-1\\1 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
-$$
+```
 
 - [ ] (c)
 
-$$
+```math
 \left\lbrace \begin{bmatrix} x \\ y \\ z \\ w \end{bmatrix} = w\begin{bmatrix} 1 \\ 1 \\ 1 \\ 1 \end{bmatrix}: w \text{ arbitrary } \right\rbrace
-$$
+```
 
 - [ ] (d)
 
-$$
+```math
 \left\lbrace \begin{bmatrix} x \\ y \\ z \\ w \end{bmatrix} = x\begin{bmatrix} 1 \\ 0 \\ 0 \\ 0 \end{bmatrix}+ y\begin{bmatrix} 0 \\ 1 \\ 0 \\ 0 \end{bmatrix}+ z\begin{bmatrix} 0 \\ 0 \\ 1 \\ 0 \end{bmatrix}+ w\begin{bmatrix} 0 \\ 0 \\ 0 \\ 1 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
-$$
+```
 
 - [ ] (e)
 
-$$
+```math
 \left\lbrace \begin{bmatrix} x\\ y \\ z \\ w \end{bmatrix} = x\begin{bmatrix} 0 \\ 1 \\ 1 \\ 1 \end{bmatrix}+ y\begin{bmatrix} 1 \\ 0 \\ 1 \\ 1 \end{bmatrix}+ z\begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix}+ w\begin{bmatrix} 2 \\ 2 \\ 2 \\ 3 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
-$$
+```
