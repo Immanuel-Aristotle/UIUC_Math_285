@@ -284,7 +284,7 @@ Question 1: Row Operations
  What is the set of solutions to the equation
 
 ```math
-\begin{bmatrix} 0 & 1 & 1 & 2 \\ 1& 0 & 1& 2\\ 1& 1& 0 & 2\\ 1& 1&1&3 \end{bmatrix}\begin{bmatrix}x\\y\\z\\w\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}?
+\begin{bmatrix} 0 & 1 & 1 & 2 \\ 1& 0 & 1& 2\\ 1& 1& 0 & 2\\ 1& 1&1&3 \end{bmatrix} \begin{bmatrix}x \\ y \\ z \\ w\end{bmatrix} = \begin{bmatrix}0 \\ 0 \\ 0 \\ 0\end{bmatrix}?
 ```
 
 - [ ] (a)
