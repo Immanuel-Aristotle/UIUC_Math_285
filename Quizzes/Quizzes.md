@@ -233,7 +233,7 @@ Question 1: Undamped Vibrations
 
 - [ ] (a) It is impossible to determine from these data
 - [ ] (b) $64$
-- [ ] (c) $\sqrt{2} \text{ s}^{-1}$
+- [x] (c) $\sqrt{2} \text{ s}^{-1}$
 - [ ] (d) $A\cos(\sqrt{\tfrac km}t)+B\sin(\sqrt{\tfrac km}t)$
 - [ ] (e) $\sin(\omega t)$
 
@@ -315,4 +315,46 @@ Question 1: Row Operations
 
 ```math
 \left\lbrace \begin{bmatrix} x\\ y \\ z \\ w \end{bmatrix} = x\begin{bmatrix} 0 \\ 1 \\ 1 \\ 1 \end{bmatrix}+ y\begin{bmatrix} 1 \\ 0 \\ 1 \\ 1 \end{bmatrix}+ z\begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix}+ w\begin{bmatrix} 2 \\ 2 \\ 2 \\ 3 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
+```
+
+## Q22
+
+Question 1: Eigenvalues
+
+ Which of the following vectors is an eigenvector of the matrix
+
+```math
+\begin{bmatrix} 1 & 1\\ 0& 2\end{bmatrix}
+```
+
+ corresponding to the eigenvalue $2$?
+
+- [ ] (a)
+
+```math
+\begin{bmatrix}0\\1\end{bmatrix}
+```
+
+- [ ] (b)
+
+```math
+\begin{bmatrix}1\\0\end{bmatrix}
+```
+
+- [ ] (c)
+
+```math
+\begin{bmatrix}0\\0\end{bmatrix}
+```
+
+- [x] (d)
+
+```math
+\begin{bmatrix}1\\1\end{bmatrix}
+```
+
+- [ ] (e)
+
+```math
+\begin{bmatrix}2\\0\end{bmatrix}
 ```
