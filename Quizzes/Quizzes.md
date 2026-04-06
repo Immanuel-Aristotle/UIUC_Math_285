@@ -358,3 +358,153 @@ Question 1: Eigenvalues
 ```math
 \begin{bmatrix}2\\0\end{bmatrix}
 ```
+
+## Q23
+
+Question 1: Eigenvalues
+
+What are the eigenvalues of the matrix
+
+```math
+\begin{bmatrix} 1 & 1 & 0\\ 2 & 3 & 1 \\ 0 & 1 & 1\end{bmatrix}
+```
+
+?
+
+- [ ] (a) $\lambda = 0, 0, 4$
+- [x] (b) $\lambda = 0, 1, 4$
+- [ ] (c) $\lambda = -1, 1, 4$
+- [ ] (d) $\lambda = -4, -2, 1$
+- [ ] (e) $\lambda = -1, 0, 2$
+
+## Q24
+
+Question 1: Systems of equations
+
+The second order linear equation $y''-5y'+6y=0$ can be rewritten as a first order equation for a vector-valued function
+
+```math
+v(t) = \begin{bmatrix}y(t)\\ z(t)\end{bmatrix}
+```
+
+ such as
+
+```math
+\frac{dv}{dt} = \begin{bmatrix} 0 & 1 \\ -6 & 5 \end{bmatrix}v.
+```
+
+ Since we know how to solve $y''-5y'+6y=0,$ we can also solve the equation for $v.$ Which of the following is a solution?
+
+- [ ] (a)
+
+```math
+v(t) = \begin{bmatrix}2\\3\end{bmatrix}
+```
+
+- [x] (b)
+
+```math
+v(t) = \begin{bmatrix}e^{2t}-e^{3t}\\2e^{2t}-3e^{3t}\end{bmatrix}
+```
+
+- [ ] (c)
+
+```math
+v(t) = \begin{bmatrix}e^{2t}\\0\end{bmatrix}
+```
+
+- [ ] (d)
+
+```math
+v(t) = \begin{bmatrix}0\\e^{3t}\end{bmatrix}
+```
+
+- [ ] (e)
+
+```math
+v(t) = \begin{bmatrix}e^{2t}\\e^{3t}\end{bmatrix}
+```
+
+## Q25
+
+Question 1: Constant Coefficient Linear Systems
+
+ Which of the following is a fundamental solution matrix for the equation
+
+```math
+\frac{d\vec v}{dt} = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}\vec v?
+```
+
+:
+
+- [ ] (a)
+
+```math
+\begin{bmatrix}e^{2t}-e^t & e^{3t}-e^t \\e^{2t} & e^{3t} \end{bmatrix}
+```
+
+- [ ] (b)
+
+```math
+\begin{bmatrix}e^{2t} & 0 \\e^{3t} & e^{3t} \end{bmatrix}
+```
+
+- [ ] (c)
+
+```math
+\begin{bmatrix}e^{2t} & te^{2t} \\e^{3t} & te^{3t} \end{bmatrix}
+```
+
+- [x] (d)
+
+```math
+\begin{bmatrix}e^{2t} & e^{3t} \\0 & e^{3t} \end{bmatrix}
+```
+
+- [ ] (e)
+
+```math
+\begin{bmatrix}e^{2t} & e^{3t} \\e^{3t} & e^{3t} \end{bmatrix}
+```
+
+## Q27
+
+Question 1: Matrix Exponential
+
+ Which of the following equals $e^{At}$ if
+
+```math
+ A = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}?
+```
+
+:
+
+- [ ] (a)
+
+```math
+\begin{bmatrix}e^{2t} & te^{2t} \\e^{3t} & te^{3t} \end{bmatrix}
+```
+
+- [x] (b)
+
+```math
+\begin{bmatrix}e^{2t} & e^{3t}-e^{2t} \\0 & e^{3t} \end{bmatrix}
+```
+
+- [ ] (c)
+
+```math
+\begin{bmatrix}e^{2t} & e^{3t} \\e^{3t} & e^{3t} \end{bmatrix}
+```
+
+- [ ] (d)
+
+```math
+\begin{bmatrix}e^{2t} & e^{3t} \\e^{2t} & e^{3t} \end{bmatrix}
+```
+
+- [ ] (e)
+
+```math
+\begin{bmatrix}e^{2t} & 0 \\e^{3t} & e^{3t} \end{bmatrix}
+```
