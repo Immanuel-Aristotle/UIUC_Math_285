@@ -463,8 +463,62 @@ Question 1: Constant Coefficient Linear Systems
 
 - [ ] (e)
 
+## Q26
+
+Question 1: Variation of Vector Parameters
+
 ```math
 \begin{bmatrix}e^{2t} & e^{3t} \\e^{3t} & e^{3t} \end{bmatrix}
+```
+
+The homogeneous equation for the vector-valued function $v,$
+
+```math
+\displaystyle \frac{dv}{dt} = \begin{bmatrix} 2 & 1 \\ 0 & 5 \end{bmatrix}v,
+```
+
+ has fundamental solution matrix
+
+```math
+M(t) = \begin{bmatrix} e^{2t} & \tfrac13(e^{5t}-e^{2t}) \\ 0 & e^{5t} \end{bmatrix}.
+```
+
+ Using variation of parameters we can find that the solution of the non-homogeneous initial value problem
+
+```math
+\begin{cases} \displaystyle \frac{dv}{dt} = \begin{bmatrix} 2 & 1 \\ 0 & 5 \end{bmatrix}v + \begin{bmatrix} e^t \\ 0 \end{bmatrix}\\ \\ v(0) = \begin{bmatrix}1\\0\end{bmatrix} \end{cases}
+```
+
+ is given by:
+
+- [x] (a)
+
+```math
+v(t) = \begin{bmatrix}2e^{2t} - e^{t}\\0\end{bmatrix}
+```
+
+- [ ] (b)
+
+```math
+v(t) = \begin{bmatrix}\tfrac13(4e^{5t}-e^{2t})\\e^{5t}-e^{2t}\end{bmatrix}
+```
+
+- [ ] (c)
+
+```math
+v(t) = \begin{bmatrix}e^{2t}\\0\end{bmatrix}
+```
+
+- [ ] (d)
+
+```math
+v(t) = \begin{bmatrix}e^{2t}\\e^{5t}-e^{2t}\end{bmatrix}
+```
+
+- [ ] (e)
+
+```math
+v(t) = \begin{bmatrix}0\\e^{5t}\end{bmatrix}
 ```
 
 ## Q27
@@ -508,3 +562,62 @@ Question 1: Matrix Exponential
 ```math
 \begin{bmatrix}e^{2t} & 0 \\e^{3t} & e^{3t} \end{bmatrix}
 ```
+
+## Q28
+
+Question 1: Putzer's Algorithm
+
+ Suppose we want to compute $e^{At}$ for
+
+```math
+ A = \begin{bmatrix} 2 & 1 \\ 0 & 3 \end{bmatrix}
+```
+
+ using Putzer's algorithm. The eigenvalues are $ 2, 3$ and we set $ B_0 = I_{2\times 2},$ $ B_1 = A-2I_{2\times 2}$, so that
+
+$$
+ e^{At} = r_1 B_0 + r_2 B_1.
+$$
+
+ What functions $r_1$ and $r_2$ should we use?
+
+- [ ] (a) $r_1(t) = e^{3t},$ and $r_2(t) = e^{2t}$
+- [x] (b) $r_1(t) = e^{2t},$ and $r_2(t) = e^{3t}-e^{2t}$
+- [ ] (c) $r_1(t) = e^{2t},$ and $r_2(t) = e^{3t}$
+- [ ] (d) $r_1(t) = te^{2t},$ and $r_2(t) = e^{3t}+e^{2t}$
+- [ ] (e) $r_1(t) = e^{2t},$ and $r_2(t) = 0$
+
+## Q29
+
+Question 1: Boundary Value Problem
+
+ How many solutions does the boundary value problem
+
+```math
+ \begin{cases} y''-2y'+y=0 \\ y(0)=0, y(\pi) = 0 \end{cases}
+```
+
+ have?
+
+- [ ] (a) no solutions
+- [ ] (b) it's impossible to tell
+- [ ] (c) two solutions
+- [ ] (d) one solution
+- [ ] (e) infinitely many solutions
+
+## Q30
+
+Question 1: Eigenvalue BVP
+
+ For the boundary value problem
+
+$$
+ \begin{cases} y''-2y'+\lambda y=0 \\ y(0)=0, y(\pi) = 0 \end{cases}
+$$
+
+ is $ \lambda =1 $ an eigenvalue?
+
+- [ ] (a) yes, it is
+- [ ] (b) we need more information
+- [x] (c) no, it is not
+- [ ] (d) it's impossible to tell
