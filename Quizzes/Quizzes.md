@@ -1,8 +1,6 @@
 # Math 285 Quizzes
 
-## Q01
-
-Question 1: Quiz: Pineapple
+## Q01: Quiz: Pineapple
 
  Does pineapple go on pizza?
 
@@ -12,9 +10,7 @@ Question 1: Quiz: Pineapple
 - [ ] (d) It's my pizza and I put whatever I want on it
 - [x] (e) Absolutely not!
 
-## Q02
-
-Question 1: Identify separable equations
+## Q02: Identify separable equations
 
  Which of the following ordinary differential equations are separable equations?
 
@@ -32,9 +28,7 @@ Question 1: Identify separable equations
 - [x] (f) (1) is, (2) is not, (3) is
 - [ ] (g) (1) is not, (2) is, (3) is not
 
-## Q03
-
-Question 1: Identify the slope field
+## Q03: Identify the slope field
 
 Identify the slope field of the equation
 
@@ -48,9 +42,7 @@ $$
 - [ ] (d) ![slope4.jpeg](./figures/Quiz03/slope4.jpeg)
 - [ ] (e) ![slope1.jpeg](./figures/Quiz03/slope1.jpeg)
 
-## Q04
-
-Question 1: Apply first order existence & uniqueness theorem
+## Q04: Apply first order existence & uniqueness theorem
 
  Consider the following initial value problems
 
@@ -78,9 +70,7 @@ $$
 - [ ] (h) It tells us nothing about (1) and it tells us nothing about (2).
 - [ ] (i) It guarantees that (1) has a unique solution near $t=0,y=0$ and that (2) has a unique solution near $t=1,y=1.$
 
-## Q05
-
-Question 1: Find an integrating factor
+## Q05: Find an integrating factor
 
  Which of the following functions would work as an integrating factor for the equation $\displaystyle\frac{d y}{d t} +2t y = \sin(t) $
 
@@ -90,9 +80,7 @@ Question 1: Find an integrating factor
 - [ ] (d) $\mu(t) = \sin(t)$
 - [ ] (e) $\mu(t) = e^{-\cos(t)}$
 
-## Q06
-
-Question 1: Complete into an exact equation
+## Q06: Complete into an exact equation
 
  Consider the equation $\displaystyle N(x,y) \frac{d y}{d x} + M(x,y)=0$
 
@@ -104,9 +92,7 @@ Question 1: Complete into an exact equation
 - [x] (d) $M(x,y) = 2xy+y^2$
 - [ ] (e) $M(x,y) = (x-y)^2$
 
-## Q07
-
-Question 1: What type of equilibrium point is this?
+## Q07: What type of equilibrium point is this?
 
  The first order autonomous equation $\displaystyle \frac{d y}{d x}= (y-4)(y+1)$ has an equilibrium point at $y=4.$
 
@@ -117,9 +103,7 @@ Question 1: What type of equilibrium point is this?
 - [x] (c) $y=4$ is an unstable equilibrium point
 - [ ] (d) $y=4$ is neither stable nor unstable
 
-## Q08
-
-Question 1: Apply Euler's method
+## Q08: Apply Euler's method
 
  Consider the initial value problem
 
@@ -135,9 +119,7 @@ Question 1: Apply Euler's method
 - [ ] (d) $e^{0.1}$
 - [x] (e) $1.1$
 
-## Q09
-
-Question 1: Higher Order Linear Equation Existence
+## Q09: Higher Order Linear Equation Existence
 
  Consider the initial value problem
 
@@ -153,9 +135,7 @@ Question 1: Higher Order Linear Equation Existence
 - [ ] (d) $(-\infty, 4)$
 - [ ] (e) $(-14,1)$
 
-## Q10
-
-Question 1: Wronskian
+## Q10: Wronskian
 
 Which of the following is equal to the Wronskian $W(e^t, te^t)?$
 
@@ -165,9 +145,7 @@ Which of the following is equal to the Wronskian $W(e^t, te^t)?$
 - [ ] (d) $t$
 - [ ] (e) $te^t$
 
-## Q11
-
-Question 1: Characteristic polynomial
+## Q11: Characteristic polynomial
 
 Find the roots of the characteristic equation of $\displaystyle \frac{d^3y}{dt^3} - 4 \frac{d^2y}{dt^2} + 4\frac{dy}{dt}=0$
 
@@ -177,9 +155,7 @@ Find the roots of the characteristic equation of $\displaystyle \frac{d^3y}{dt^3
 - [x] (d) $0$ with multiplicity one and $2$ with multiplicity two
 - [ ] (e) $-4$ with multiplicity one, $4$ with multiplicity one
 
-## Q12
-
-Question 1: Constant Coefficient Linear ODE
+## Q12: Constant Coefficient Linear ODE
 
  Find the general solution of $\displaystyle \frac{d^3y}{dt^3} - 4 \frac{d^2y}{dt^2} + 4\frac{dy}{dt}=0$
 
@@ -189,9 +165,7 @@ Question 1: Constant Coefficient Linear ODE
 - [ ] (d) $y(t) = A + Bt + Ct^{2}$ with $A,$ $B,$ and $C$ arbitrary constants
 - [ ] (e) $y(t) = A + B e^{-2t} + C e^{2t}$ with $A,$ $B,$ and $C$ arbitrary constants
 
-## Q13
-
-Question 1: Undetermined Coefficients
+## Q13: Undetermined Coefficients
 
  Find the general solution of $\displaystyle \frac{d^3y}{dt^3} - 4 \frac{d^2y}{dt^2} + 4\frac{dy}{dt}=e^t$
 
@@ -201,9 +175,7 @@ Question 1: Undetermined Coefficients
 - [ ] (d) $y(t) = 17e^t + A + B e^{2t} + C te^{2t}$ with $A,$ $B,$ and $C$ arbitrary constants
 - [ ] (e) $y(t) = e^t + A + B e^{-4t} + C e^{4t}$ with $A,$ $B,$ and $C$ arbitrary constants
 
-## Q14
-
-Question 1: Annihilator Method
+## Q14: Annihilator Method
 
  Which of the following is the simplest annihilator for the function $f(t) = \sin(3t)?$
 
@@ -213,9 +185,7 @@ Question 1: Annihilator Method
 - [ ] (d) $\frac{d}{dt}-3\cos(3t)$
 - [x] (e) $\frac{d^2}{dt^2}+9$
 
-## Q15
-
-Question 1: Variation of Parameters
+## Q15: Variation of Parameters
 
  If we are given a function $f(t)$ and we want to find a particular solution of the equation $\frac{d^3y}{dt^3}+9\frac{dy}{dt} = f(t)$ using variation of parameters, then we should look for a particular solution of the following form:
 
@@ -225,9 +195,7 @@ Question 1: Variation of Parameters
 - [ ] (d) $y_p(t) = A(t) f(t) + 9B(t)$
 - [ ] (e) $y_p(t) = A(t) \sin(3t) + B(t) \cos (3t) $
 
-## Q17
-
-Question 1: Undamped Vibrations
+## Q17: Undamped Vibrations
 
  Suppose a mass-spring system has a mass of 32 kg and involves a spring with spring constant $k= 64 \text{ kg/}\text{s}^2.$ What is the natural frequency of the system?
 
@@ -237,9 +205,7 @@ Question 1: Undamped Vibrations
 - [ ] (d) $A\cos(\sqrt{\tfrac km}t)+B\sin(\sqrt{\tfrac km}t)$
 - [ ] (e) $\sin(\omega t)$
 
-## Q18
-
-Question 1: Damped Vibrations
+## Q18: Damped Vibrations
 
  Suppose a damped mass-spring system has a mass of 64 kg and involves a spring with spring constant $k= 64 \text{ kg/}\text{s}^2$ and that the damping coefficient is $\gamma = 64$ kg/s. Is the system overdamped, underdamped, or critically damped?
 
@@ -249,9 +215,7 @@ Question 1: Damped Vibrations
 - [ ] (d) It is impossible to determine from these data
 - [x] (e) underdamped
 
-## Q19
-
-Question 1: Electric Circuits
+## Q19: Electric Circuits
 
  Suppose we have an RC circuit governed by the equation $5\frac{dI}{dt} + \frac12I = V_0 \cos(t).$ What is the impedance of the circuit?
 
@@ -261,9 +225,7 @@ Question 1: Electric Circuits
 - [ ] (d) $5$
 - [ ] (e) $V_0e^{it}$
 
-## Q20
-
-Question 1: Determinants
+## Q20: Determinants
 
  What is the determinant of the matrix
 
@@ -277,9 +239,7 @@ Question 1: Determinants
 - [ ] (d) $1$
 - [ ] (e) $3$
 
-## Q21
-
-Question 1: Row Operations
+## Q21: Row Operations
 
  What is the set of solutions to the equation
 
@@ -317,9 +277,7 @@ Question 1: Row Operations
 \left\lbrace \begin{bmatrix} x\\ y \\ z \\ w \end{bmatrix} = x\begin{bmatrix} 0 \\ 1 \\ 1 \\ 1 \end{bmatrix}+ y\begin{bmatrix} 1 \\ 0 \\ 1 \\ 1 \end{bmatrix}+ z\begin{bmatrix} 1 \\ 1 \\ 0 \\ 1 \end{bmatrix}+ w\begin{bmatrix} 2 \\ 2 \\ 2 \\ 3 \end{bmatrix}: x,y,z,w \text{ arbitrary } \right\rbrace
 ```
 
-## Q22
-
-Question 1: Eigenvalues
+## Q22: Eigenvalues
 
  Which of the following vectors is an eigenvector of the matrix
 
@@ -359,9 +317,7 @@ Question 1: Eigenvalues
 \begin{bmatrix}2\\0\end{bmatrix}
 ```
 
-## Q23
-
-Question 1: Eigenvalues
+## Q23: Eigenvalues
 
 What are the eigenvalues of the matrix
 
@@ -377,9 +333,7 @@ What are the eigenvalues of the matrix
 - [ ] (d) $\lambda = -4, -2, 1$
 - [ ] (e) $\lambda = -1, 0, 2$
 
-## Q24
-
-Question 1: Systems of equations
+## Q24: Systems of equations
 
 The second order linear equation $y''-5y'+6y=0$ can be rewritten as a first order equation for a vector-valued function
 
@@ -425,9 +379,7 @@ v(t) = \begin{bmatrix}0\\e^{3t}\end{bmatrix}
 v(t) = \begin{bmatrix}e^{2t}\\e^{3t}\end{bmatrix}
 ```
 
-## Q25
-
-Question 1: Constant Coefficient Linear Systems
+## Q25: Constant Coefficient Linear Systems
 
  Which of the following is a fundamental solution matrix for the equation
 
@@ -463,9 +415,7 @@ Question 1: Constant Coefficient Linear Systems
 
 - [ ] (e)
 
-## Q26
-
-Question 1: Variation of Vector Parameters
+## Q26: Variation of Vector Parameters
 
 ```math
 \begin{bmatrix}e^{2t} & e^{3t} \\e^{3t} & e^{3t} \end{bmatrix}
@@ -521,9 +471,7 @@ v(t) = \begin{bmatrix}e^{2t}\\e^{5t}-e^{2t}\end{bmatrix}
 v(t) = \begin{bmatrix}0\\e^{5t}\end{bmatrix}
 ```
 
-## Q27
-
-Question 1: Matrix Exponential
+## Q27: Matrix Exponential
 
  Which of the following equals $e^{At}$ if
 
@@ -563,9 +511,7 @@ Question 1: Matrix Exponential
 \begin{bmatrix}e^{2t} & 0 \\e^{3t} & e^{3t} \end{bmatrix}
 ```
 
-## Q28
-
-Question 1: Putzer's Algorithm
+## Q28: Putzer's Algorithm
 
  Suppose we want to compute $e^{At}$ for
 
@@ -587,9 +533,7 @@ $$
 - [ ] (d) $r_1(t) = te^{2t},$ and $r_2(t) = e^{3t}+e^{2t}$
 - [ ] (e) $r_1(t) = e^{2t},$ and $r_2(t) = 0$
 
-## Q29
-
-Question 1: Boundary Value Problem
+## Q29: Boundary Value Problem
 
  How many solutions does the boundary value problem
 
@@ -605,15 +549,13 @@ Question 1: Boundary Value Problem
 - [ ] (d) one solution
 - [ ] (e) infinitely many solutions
 
-## Q30
-
-Question 1: Eigenvalue BVP
+## Q30: Eigenvalue BVP
 
  For the boundary value problem
 
-$$
+```math
  \begin{cases} y''-2y'+\lambda y=0 \\ y(0)=0, y(\pi) = 0 \end{cases}
-$$
+```
 
  is $ \lambda =1 $ an eigenvalue?
 
@@ -621,3 +563,21 @@ $$
 - [ ] (b) we need more information
 - [x] (c) no, it is not
 - [ ] (d) it's impossible to tell
+
+## Q31: Boundary Value Problems
+
+Consider the following eigenvalue problem for $y(x)$:
+
+ $y^{ \, \prime \prime} + \lambda \, y =  0$
+
+$y(0) = 0$
+
+$y^{ \, \prime}(6) = 0$
+
+Which are the correct eigenvalues and corresponding eigenfunctions?
+
+- [ ] (a) $\lambda_n =  \frac{(2n-1)^2 \pi^2}{ 144 }; \qquad y_n(x) = \sin{\left[ \frac{(2n-1) \pi x}{ 12 } \right] }$
+- [ ] (b) None of these
+- [ ] (c) $\lambda_n =  \frac{n^2 \pi^2}{ 36 }; \qquad y_n(x) = \cos{\left[ \frac{n \pi x}{ 6 } \right] }$
+- [ ] (d) $\lambda_n =  \frac{n^2 \pi^2}{ 36 }; \qquad y_n(x) = \sin{\left[ \frac{n \pi x}{ 6 } \right] }$
+- [ ] (e) $\lambda_n =  \frac{(2n-1)^2 \pi^2}{ 12 }; \qquad y_n(x) = \cos{\left[ \frac{(2n-1) \pi x}{ 6 } \right] }$
