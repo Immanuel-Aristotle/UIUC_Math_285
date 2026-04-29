@@ -568,7 +568,7 @@ $$
 
 Consider the following eigenvalue problem for $y(x)$:
 
- $y^{ \, \prime \prime} + \lambda \, y =  0$
+$y^{ \, \prime \prime} + \lambda \, y =  0$
 
 $y(0) = 0$
 
@@ -576,8 +576,134 @@ $y^{ \, \prime}(6) = 0$
 
 Which are the correct eigenvalues and corresponding eigenfunctions?
 
-- [ ] (a) $\lambda_n =  \frac{(2n-1)^2 \pi^2}{ 144 }; \qquad y_n(x) = \sin{\left[ \frac{(2n-1) \pi x}{ 12 } \right] }$
+- [x] (a) $\lambda_n =  \frac{(2n-1)^2 \pi^2}{ 144 }; \qquad y_n(x) = \sin{\left[ \frac{(2n-1) \pi x}{ 12 } \right] }$
 - [ ] (b) None of these
 - [ ] (c) $\lambda_n =  \frac{n^2 \pi^2}{ 36 }; \qquad y_n(x) = \cos{\left[ \frac{n \pi x}{ 6 } \right] }$
 - [ ] (d) $\lambda_n =  \frac{n^2 \pi^2}{ 36 }; \qquad y_n(x) = \sin{\left[ \frac{n \pi x}{ 6 } \right] }$
 - [ ] (e) $\lambda_n =  \frac{(2n-1)^2 \pi^2}{ 12 }; \qquad y_n(x) = \cos{\left[ \frac{(2n-1) \pi x}{ 6 } \right] }$
+
+## Q32: Fourier Sine Series
+
+ If
+
+$$
+ \sum_{n=1}^{\infty} b_n \sin( n\tfrac{\pi}L x)
+$$
+
+ is the Fourier sine series of the function
+
+```math
+f(x) = \begin{cases} 0 & \text{ if } 0\leq x \leq \tfrac L2 \\ 1 & \text{ if } \tfrac L2 < x \leq L \end{cases}
+```
+
+ on the interval $ [0,L],$ what is $ b_1?$
+
+- [ ] (a) $b_1 = -\frac{L}{\pi}\cos(n\tfrac {\pi}L x)$
+- [ ] (b) $b_1 = \frac2L\sin(\tfrac {\pi}L x)$
+- [ ] (c) $b_1 = -\frac{L}{\pi}\cos(\tfrac {\pi}L x)$
+- [ ] (d) $b_1 = 0$
+- [x] (e) $b_1 = \frac2{\pi}$
+
+## Q34: Fourier Series
+
+ If
+
+$$
+ A_0 + \sum_{n=1}^{\infty} A_n \cos( n\tfrac{\pi}L x) + B_n \sin(n\tfrac{\pi}Lx)
+$$
+
+ is the Fourier series of the function
+
+```math
+f(x) = \begin{cases} 0 & \text{ if } 0\leq x \leq L \\ 1 & \text{ if } L < x \leq 2L \end{cases}
+```
+
+ on the interval $ [0,2L],$ what is $ A_0?$
+
+- [ ] (a) $A_0 = 1$
+- [ ] (b) $A_0 = \frac1{2L}$
+- [ ] (c) $A_0 = 0$
+- [x] (d) $A_0 = \frac1{2}$
+- [ ] (e) $A_0 = \frac{\pi}{2}$
+
+## Q35:Even and Odd Functions
+
+ Is the function
+
+```math
+ f(x) = \begin{cases} -1 & \text{ if } x<0 \\ 0 & \text{ if } x=0 \\ 1 & \text{ if } x>0 \end{cases}
+```
+
+ an even function or an odd function?
+
+- [ ] (a) $ f $ is an even function
+- [ ] (b) $ f $ is neither an even nor an odd function
+- [ ] (c) $ f $ is both an even and an odd function
+- [ ] (d) It's impossible to tell
+- [x] (e) $ f $ is an odd function
+
+## Q36: Dirichlet Heat Equation
+
+ The Fourier sine series of the function $ f(x) = x^3 $ on the interval $[0,\pi]$ is
+
+$$
+ x^3 = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} \sin(nx).
+$$
+
+ The solution of the equation
+
+```math
+\begin{cases} \displaystyle \frac{\partial u}{\partial t} = \sigma \frac{\partial^2 u}{\partial x^2} \\ u(x,0)=x^3 \\ u(0,t) =0, u(\pi,t)=0 \end{cases}
+```
+
+ is equal to?
+
+- [ ] (a) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} \sin(n x) $
+- [x] (b) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} e^{-\sigma n^2 t} \sin(n x) $
+- [ ] (c) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} e^{-\sigma n^2 t} \cos(n x) $
+- [ ] (d) It's impossible to solve this equation
+- [ ] (e) $ u(x,t) = e^{-t\sigma x^3} $
+
+## Q37: Neumann Heat Equation
+
+ The Fourier cosine series of the function $ f(x) = x^2 $ on the interval $[0,\pi]$ is
+
+$$
+ x^2 = \frac{\pi^2}3 + 4 \sum_{n=1}^{\infty} \frac{(-1)^{n}}{n^2} \cos(nx).
+$$
+
+ The solution of the equation
+
+```math
+\begin{cases} \displaystyle \frac{\partial u}{\partial t} = \sigma \frac{\partial^2 u}{\partial x^2} \\ u(x,0)=x^2 \\ \frac{\partial u}{\partial x}(0,t) =0, \frac{\partial u}{\partial x}(\pi,t)=0 \end{cases}
+```
+
+ is equal to?
+
+- [x] (a) $ u(x,t) = \frac{\pi^2}3 + 4 \sum_{n=1}^{\infty} \frac{(-1)^{n}}{n^2} e^{-\sigma n^2 t} \cos(nx) $
+- [ ] (b) It's impossible to solve this equation
+- [ ] (c) $ u(x,t) = \frac{\pi^2}3e^{-\sigma t} + 4 \sum_{n=1}^{\infty} e^{-\sigma n^2 t} \cos(nx) $
+- [ ] (d) $ u(x,t) = \frac{\pi^2}3 + 4 \sum_{n=1}^{\infty} \frac{(-1)^{n}}{n^2} e^{-\sigma n^2 t} \sin(nx) $
+- [ ] (e) $ u(x,t) = e^{-t\sigma x^2} $
+
+## Q38: Wave Equation
+
+ The Fourier sine series of the function $ f(x) = x^3 $ on the interval $[0,\pi]$ is
+
+$$
+ x^3 = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} \sin(nx).
+$$
+
+ The solution of the equation
+
+```math
+\begin{cases} \displaystyle \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2} \\ u(x,0)=x^3, \frac{\partial u}{\partial t}(x,0)=0 \\ u(0,t) =0, u(\pi,t)=0 \end{cases}
+```
+
+ is equal to?
+
+- [ ] (a) It's impossible to solve this equation
+- [x] (b) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} \cos(cnt) \sin(n x) $
+- [ ] (c) $ u(x,t) = e^{-t\sigma x^3} $
+- [ ] (d) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} \sin(n x) $
+- [ ] (e) $ u(x,t) = 2 \sum_{n=1}^{\infty} (-1)^{n+1}\frac{(n\pi)^2-6}{n^3} e^{-c^2n^2 t} \sin(n x) $
